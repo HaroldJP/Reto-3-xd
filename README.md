@@ -25,13 +25,8 @@ repetir para el nuevo i
 
 fin mientras
 fin
-```pseudocode
-
-
-
+```
 Ahora, el pseudocódigo para determinar la raíz aproximada de un número natural n.
-
-
 
 ```pseudocode
 [Variables]
@@ -51,4 +46,4 @@ repetir para el nuevo x
 
  fin mientras
 Fin
-```pseudocode
+```
