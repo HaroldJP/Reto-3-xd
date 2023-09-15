@@ -28,25 +28,27 @@ fin
 ```pseudocode
 
 
+
 Ahora, el pseudocódigo para determinar la raíz aproximada de un número natural n.
 
 
-```pseudocode
 
+```pseudocode
 [Variables]
-   n = entero positivo
+   n = entero
 
  mientras n >= 0 hacer
-      A = n/2
-         A2 = 0.5 * (A + n/A)
+    si n<0 escribir "no se puede calcular la raíz real de n"
+      sino
+             x = n/2
+              y  = 0.5 * (A + n/A)
 
-      si (A - A2 < 0.0001)
-     Escribir ("La raíz cuadrada de n con un margen de error de 0.0001 es A2)
+      si (x - y < 0.0001)
+           escribir "La raíz cuadrada de n con un margen de error de 0.0001 es y"
 
-     Sino A = A2  --> Volver a aplicar la fórmula
+     sino x = y
+repetir para el nuevo x
 
- Sino escribir ("No se puede calcular la raíz cuadrada")
- Fin mientras
+ fin mientras
 Fin
-
 ```pseudocode
