@@ -1,4 +1,4 @@
-# Reto-4 aprendiendo a usar mermaid
+# Reto-3 aprendiendo a usar mermaid pero desde la aplicación y montando el diagrama en png xd
 
 Primero, hice el diagrama que sirve para mostar el algoritmo para calcular los números primos anteriores a un natural de la forma pro mediante el uso de mermaid. A pesar de haberlo hecho de la forma pro, no me quedó muy pro pero la intención es lo que cuenta, pienso yo.
 
